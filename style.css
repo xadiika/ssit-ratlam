@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0%;
+} 
+ .main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 254);
+    color: blue;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(7, 3, 255);
+    margin-right: 50px;
+    font-size: 25px;
+}
+h1{
+margin-right: 200px;
+}
+.nav2-text{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.navbar2-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom:200px ;
+
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.submain2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    width: 600px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

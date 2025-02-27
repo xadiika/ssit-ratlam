@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            width: 600px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        } -->
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <nav class="navbar">
+                <h1>SSIT Ratlam</h1>
+                <div class="nav-links">
+                
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="courses.html">courses</a>
+                <a href="form.html">Admission Form</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <h1>College Admission Form</h1>
+    <form action="/submit-admission" method="POST">
+        <!-- Personal Details -->
+        <h2>Personal Details</h2>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="">Select</option>
+            <option value="general">General</option>
+            <option value="obc">OBC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+        </select><br><br>
+
+        <!-- Contact Information -->
+        <h2>Contact Information</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea><br><br>
+
+        <!-- Academic Details -->
+        <h2>Academic Details</h2>
+        <label for="course">Course Applied For:</label>
+        <select id="course" name="course" required>
+            <option value="">Select</option>
+            <option value="bsc">B.Sc</option>
+            <option value="ba">B.A</option>
+            <option value="bcom">B.Com</option>
+            <option value="btech">B.Tech</option>
+            <option value="mba">MBA</option>
+        </select><br><br>
+
+        <label for="marks">10+2 Percentage:</label>
+        <input type="number" id="marks" name="marks"  placeholder="Enter your Percentage" required><br><br>
+
+       <center><button style="color: black; background-color: aqua; padding-left: 200px; padding-right: 200px; font-size: 20px;">submit application</button></center>
+    </form>
